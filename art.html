@@ -8,26 +8,25 @@
         <a href="index.html"><h1>CHRISTINA EMMANUEL</h1></a>
 <nav><ul><a href="about.html"><li>About</li></a><a href="art.html"><li>Artwork</li></a><a href="contact.html"><li>Contact</li></a></ul></nav>
    <main><section><h3>2023</h3>
-    <div class="artphoto"><img src="pdp/hair1_2023.jpg"></div>
-    <div class="artphoto"><img src="pdp/girl_let_me_tell_you_2023.jpg"></div>
-    <div class="artphoto"><img src="pdp/sit_down_int2023.jpg"></div>
-    <div class="artphoto"><img src="emmanuelp-christina-05.JPG"></div>
-    <div class="artphoto"><img src="emmanuelp-christina-06.JPG"></div>
-    <div class="artphoto"><img src="emmanuelp-christina-07.JPG"></div>
-    <div class="artphoto"><img src="emmanuelp-christina-08.jpg"></div>
-    <div class="artphoto"><img src="emmanuelp-christina-09.jpg"></div>
-
+    <div class="artphoto"><img src="pdp/hair1_2023.jpg" id="1" onclick="window.open('pdp/hair1_2023.jpg','popup')"></div>
+    <div class="artphoto"><img src="pdp/girl_let_me_tell_you_2023.jpg" onclick="window.open('pdp/girl_let_me_tell_you_2023.jpg','popup')"></div>
+    <div class="artphoto"><img src="pdp/sit_down_2023.jpg" onclick="window.open('pdp/sit_down_2023.jpg','popup')"></div>
+        <div class="artphoto"><img src="pdp/the_twins_1_2023.jpg" onclick="window.open('pdp/the_twins_1_2023.jpg','popup')"></div>
+    <div class="artphoto"><img src="emmanuelp-christina-05.JPG" onclick="window.open('emmanuelp-christina-05.JPG','popup')"></div>
+    <div class="artphoto"><img src="emmanuelp-christina-06.JPG" onclick="window.open('emmanuelp-christina-06,'popup')"></div>
+    <div class="artphoto"><img src="emmanuelp-christina-07.JPG" onclick="window.open('emmanuelp-christina-07','popup')"></div>
+    <div class="artphoto"><img src="emmanuelp-christina-08.jpg" onclick="window.open('emmanuelp-christina-08','popup')"></div>
+    <div class="artphoto"><img src="emmanuelp-christina-09.jpg" onclick="window.open('emmanuelp-christina-09,'popup')"></div>
 </section>
-<section><h3>2022</h3>    <div class="artphoto"><img src="pdp/shadows_2022.jpg">
-    <div class="artphoto"><img src="tumblr_a3b45b83fadb509dd17994dbe515d503_74647e00_500.jpg"></div>
+<section><h3>2022</h3>    <div class="artphoto"><img src="pdp/shadows_2022.jpg" onclick="window.open('pdp/shadows_2022.jpg','popup')">
 </div>
 </section>
    </main>
 </wrapper>
 <script>
-    const enlargeImg=()=>{selectImg.style.transform="scale(2)";}
-    let selectImg=document.getElementsByClassName("artphoto");
-    selectImg.addEventListener("click", enlargeImg, false)
-</script> 
+    let images=[{id:1,link:pdp/hair1_2023.jpg,desc:Hair 1<br>Oil on canvas<br>}]
+    let img1=document.getElementById("1");
+
+</script>
 </body>
 </html>
