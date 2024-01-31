@@ -9,6 +9,17 @@ body {
     h1{
         font-size: 30px;
     }
+    .container{
+        max-width: 60%;
+    }
+    .artphoto {
+        width: 35%;
+    height: 30%;
+    padding: 0.5em;
+    margin: 2%;
+    }.artphoto img {
+        width: 2em;
+    }
 }
 
     @media screen and (max-width: 600px) {
@@ -16,11 +27,20 @@ body {
             max-width: 65%;
         }
         h1{
-           font-size: 1em;
+           font-size: 0.5em;
         }
     ul li{
         display: block;
         margin: 1em 0;
+    } .container{
+        max-width: 50%;
+    }.artphoto {
+        width: 35%;
+    height: 30%;
+    padding: 10px;
+    margin: 2%;
+    }.artphoto img {
+        width: 3em;
     }
         }
 
